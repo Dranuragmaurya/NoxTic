@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    API_ID = int(getenv("20088801"))
+    API_ID = int("20088801")
     API_HASH = getenv("b761ce9bcc78b5ad5d1d677762e831d1")
     BOT_TOKEN = getenv("8000038670:AAF-1a58qk33FTdu4IrWuKpm0peT1sQNvT0")
     MONGO_URI = getenv("mongodb+srv://Japusahu:Japusahu@japusahu.qnu3j.mongodb.net/?retryWrites=true&w=majority&appName=JAPUSAHU")
